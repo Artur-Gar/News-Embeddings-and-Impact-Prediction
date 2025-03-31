@@ -39,6 +39,7 @@ The project is divided into the following stages:
   ├── transformers_embeddings.ipynb        # Generate embeddings 
   ├── regression_models_training.ipynb     # Train and evaluate regressors 
   ├── final_pipeline.ipynb                 # Load model and predict 
+  └── README.md 
  </pre>
 
 ---
