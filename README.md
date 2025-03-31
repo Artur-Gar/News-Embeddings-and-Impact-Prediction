@@ -33,14 +33,50 @@ The project is divided into the following stages:
 ## 🤖 Stage 2: Model Training and Weight Saving  
 📄 *Notebook: `regression_models_training.ipynb`*
 
-- **Penalty weights** (e.g., `0.75`) are assigned to synthetic or second-round generated news to avoid overfitting:
-  ```python
-  model.fit(X_train, y_train, sample_weight=sample_weight)
+---
 
-  📁 Project Structure
+📁 Project Structure
 <pre> 
   . 
+  ├── custom_modules/ 
+  │ ├── __init__.py 
+  │ ├── embeddinger.py                     # Embedding logic with transformer model 
+  │ ├── parameters_search.py               # Grid/Random search for hyperparameters 
+  │ └── predict.py                         # Inference pipeline 
   ├── data/ 
-  │ └── generate_news_2.xlsx # News data with initial labeling 
-  ├── transformers_embeddings.ipynb # Extract CLS embeddings 
-  ├── regression_models_training.ipynb # Train and tune regression models ├── final_pipeline.ipynb # Final prediction & scoring ├── parameters_search.py # Grid/Random Search wrapper ├── saved_models/ # Folder for .pkl files └── README.md </pre>
+  │ ├── concatenated_news.xlsx 
+  │ ├── df_embs_tiny.xlsx 
+  │ ├── generated_and_bad_news.xlsx 
+  │ └── knn_svr_real_test_1.xlsx 
+  ├── pkl_models/ 
+  │ ├── StackingReg.pkl 
+  │ ├── regress_knn.pkl 
+  │ └── regress_svr.pkl 
+  ├── transformers_embeddings.ipynb        # Generate embeddings 
+  ├── regression_models_training.ipynb     # Train and evaluate regressors 
+  ├── final_pipeline.ipynb                 # Load model and predict 
+ </pre>
+
+---
+
+ 🚀 Features
+Transformer-based semantic embeddings
+
+Sample weighting for synthetic data
+
+Hyperparameter search and model stacking
+
+Modular pipeline with reusable scripts
+---
+
+📈 Use Cases
+Predicting stock price movements from news
+
+Event-based financial modeling
+
+Generating semantic embeddings for finance
+
+Backtesting news impact strategies
+---
+📝 Author
+Artur Garipov
