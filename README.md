@@ -20,8 +20,7 @@ The project is divided into the following stages:
 ---
 
 ## 📁 Project Structure
-<pre> 
-  . 
+<pre> . 
   ├── custom_modules/ 
   │ ├── __init__.py 
   │ ├── embeddinger.py                     # Embedding logic with transformer model 
