@@ -9,13 +9,13 @@ This repository contains a full machine learning pipeline for predicting the **i
 The project is divided into the following stages:
 
 1. **Generating Embeddings**
-   📄 *Notebook: `transformers_embeddings.ipynb`*
+      - 📄 *Notebook: `transformers_embeddings.ipynb`*
       - A pre-trained transformer model from Hugging Face is used.
       - The **CLS token embedding** of each news article is extracted and used as its final representation.
 2. **Training the Model and Saving Weights**
-   📄 *Notebook: `regression_models_training.ipynb`*
+   - 📄 *Notebook: `regression_models_training.ipynb`*
 3. **Predicting impact with use of trained models**
-   📄 *Notebook: `final_pipeline.ipynb`*
+   - 📄 *Notebook: `final_pipeline.ipynb`*
 
 ---
 
