@@ -4,38 +4,22 @@ This repository contains a full machine learning pipeline for predicting the **i
 
 ---
 
-## 📌 Problem Statement
-
-"""
-Based on the available news and their impact labels, the task is to train an ML model to predict the impact of a news article on a company's stock price.
-"""
-
----
-
-## 🔄 Project Pipeline
+## 📌 Project Overview
 
 The project is divided into the following stages:
 
 1. **Generating Embeddings**
+   📄 *Notebook: `transformers_embeddings.ipynb`*
+      - A pre-trained transformer model from Hugging Face is used.
+      - The **CLS token embedding** of each news article is extracted and used as its final representation.
 2. **Training the Model and Saving Weights**
+   📄 *Notebook: `regression_models_training.ipynb`*
+3. **Predicting impact with use of trained models**
+   📄 *Notebook: `final_pipeline.ipynb`*
 
 ---
 
-## 🔎 Stage 1: Generating Embeddings  
-📄 *Notebook: `transformers_embeddings.ipynb`*
-
-- A pre-trained transformer model from Hugging Face is used.
-- Since internet access was restricted, the model was downloaded and loaded via **local paths**.
-- The **CLS token embedding** of each news article is extracted and used as its final representation.
-
----
-
-## 🤖 Stage 2: Model Training and Weight Saving  
-📄 *Notebook: `regression_models_training.ipynb`*
-
----
-
-📁 Project Structure
+## 📁 Project Structure
 <pre> 
   . 
   ├── custom_modules/ 
@@ -59,7 +43,7 @@ The project is divided into the following stages:
 
 ---
 
- 🚀 Features
+## 🚀 Features
 Transformer-based semantic embeddings
 
 Sample weighting for synthetic data
@@ -70,7 +54,7 @@ Modular pipeline with reusable scripts
 
 ---
 
-📈 Use Cases
+## 📈 Use Cases
 Predicting stock price movements from news
 
 Event-based financial modeling
