@@ -45,24 +45,24 @@ The project is divided into the following stages:
 ---
 
 ## 🚀 Features
-Transformer-based semantic embeddings
+- Transformer-based semantic embeddings
 
-Sample weighting for synthetic data
+- Sample weighting for synthetic data
 
-Hyperparameter search and model stacking
+- Hyperparameter search and model stacking
 
-Modular pipeline with reusable scripts
+- Modular pipeline with reusable scripts
 
 ---
 
 ## 📈 Use Cases
-Predicting stock price movements from news
+- Predicting stock price movements from news
 
-Event-based financial modeling
+- Event-based financial modeling
 
-Generating semantic embeddings for finance
+- Generating semantic embeddings for finance
 
-Backtesting news impact strategies
+- Backtesting news impact strategies
 
 ---
 
