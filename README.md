@@ -67,6 +67,7 @@ Sample weighting for synthetic data
 Hyperparameter search and model stacking
 
 Modular pipeline with reusable scripts
+
 ---
 
 📈 Use Cases
@@ -77,6 +78,10 @@ Event-based financial modeling
 Generating semantic embeddings for finance
 
 Backtesting news impact strategies
+
 ---
-📝 Author
-Artur Garipov
+
+## 📝 Author
+
+**Artur Garipov**  
+[LinkedIn](https://www.linkedin.com/in/artur-garipov-36037a319) | [GitHub](https://github.com/Artur-Gar)
